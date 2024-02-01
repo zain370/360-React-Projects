@@ -1,0 +1,416 @@
+.main_img_div {
+  /* background-image: url(./../../Assets/house.png); */
+  width: 100% !important;
+  height: 1091px !important;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  /* position: absolute;
+  top: 0; */
+}
+
+.div_for_centering {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.buyer_form_content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+.america_text {
+  color: #fff;
+  font-family: DM Serif Display;
+  font-size: 4.5vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 104px */
+  letter-spacing: 5.2px;
+}
+
+.below_america_text {
+  color: #fff;
+  font-family: DM Serif Display;
+  font-size: 1.8vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.form_bullets_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10vw;
+}
+
+.my_bullets {
+  margin-top: 5vw;
+  margin-left: 2vw;
+}
+
+.blurry_card {
+  border-radius: 1.6vw;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background: rgba(255, 246, 246, 0.2);
+  backdrop-filter: blur(7.5px);
+  width: 30vw;
+  height: 16.5vw;
+  padding: 1.5vw;
+}
+
+.card_content {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column !important;
+  gap: 1vw;
+}
+
+.blurry_card_heading {
+  color: #0e0e10;
+  font-family: sans-serif;
+  font-size: 0.9vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-align: center;
+}
+
+::placeholder {
+  color: #585858;
+  font-family: sans-serif;
+  font-size: 0.8vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  /* padding: 0.2vw; */
+}
+
+.actual_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.2vw;
+}
+
+.my_form_inputs {
+  border: none !important;
+  width: 11vw;
+  height: 2vw;
+  margin: 0.5vw;
+  padding-left: 0.7vw;
+  outline: none;
+}
+
+.address_inputs {
+  height: 2vw;
+  width: 23vw;
+  padding-left: 0.7vw;
+  outline: none;
+  border: none;
+}
+
+.form_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.my_form_button {
+  font-size: 0.8vw;
+  color: #fff;
+  width: 12vw;
+  height: 2.5vw;
+
+  border-radius: 30px;
+  border: 1px solid #194668;
+  background: linear-gradient(
+    180deg,
+    #194668 14.58%,
+    rgba(127, 161, 186, 0) 85.42%
+  );
+  box-shadow: 0px 2px 4px 0px rgba(255, 255, 255, 0.1);
+}
+
+.btn_class_center {
+  margin-top: 0.8vw;
+}
+.bullet_img {
+  width: 26vw;
+}
+
+.my_bullets {
+  margin-left: 9vw;
+}
+
+@media only screen and (max-width: 1100px) {
+  .buyer_form_content {
+    gap: 3vw;
+  }
+  .blurry_card {
+    border-radius: 17px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background: rgba(255, 246, 246, 0.2);
+    backdrop-filter: blur(7.5px);
+    width: 300px;
+    height: 190px;
+    padding: 17px;
+  }
+
+  .card_content {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column !important;
+    gap: 15px;
+  }
+
+  .blurry_card_heading {
+    color: #0e0e10;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-align: center;
+  }
+
+  ::placeholder {
+    color: #585858;
+    font-family: sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    /* padding: 0.2vw; */
+  }
+
+  .actual_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .my_form_inputs {
+    border: none !important;
+    width: 130px;
+    height: 25px;
+    margin: 0.5vw;
+    padding-left: 0.7vw;
+    outline: none;
+    padding-bottom: 7px;
+  }
+
+  .address_inputs {
+    width: 270px;
+    height: 25px;
+    padding-bottom: 7px;
+    padding-left: 0.7vw;
+  }
+
+  .form_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .my_form_button {
+    font-size: 8px;
+    color: #fff;
+    width: 110px;
+    height: 25px;
+
+    border-radius: 30px;
+    border: 1px solid #194668;
+    background: linear-gradient(
+      180deg,
+      #194668 14.58%,
+      rgba(127, 161, 186, 0) 85.42%
+    );
+    box-shadow: 0px 2px 4px 0px rgba(255, 255, 255, 0.1);
+  }
+
+  .btn_class_center {
+    margin-top: 4px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .my_bullets {
+    display: none !important;
+  }
+  .form_bullets_div {
+    width: 100% !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+  }
+
+  .below_america_text {
+    margin-bottom: 2vw;
+    font-size: 2.5vw;
+  }
+
+  .form_bullets_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6vw;
+  }
+
+  .my_bullets {
+    margin-top: 0vw !important;
+    margin-left: 3vw;
+  }
+
+  .bullet_img {
+    width: 37vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bullet_img {
+    width: 45vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .below_america_text {
+    font-size: 2.5vw;
+  }
+
+  .blurry_card {
+    border-radius: 3.5vw;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background: rgba(255, 246, 246, 0.2);
+    backdrop-filter: blur(7.5px);
+    width: 63vw;
+    height: 40vw !important;
+    padding: 3vw;
+  }
+
+  .card_content {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column !important;
+    gap: 3vw;
+  }
+
+  .blurry_card_heading {
+    color: #0e0e10;
+    font-family: sans-serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-align: center;
+  }
+
+  ::placeholder {
+    color: #585858;
+    font-family: sans-serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    /* padding: 0.2vw; */
+  }
+
+  .actual_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+  }
+
+  .my_form_inputs {
+    border: none !important;
+    width: 26vw;
+    height: 5.5vw;
+    margin: 0.5vw;
+    padding-left: 0.7vw;
+    outline: none;
+    padding-bottom: 7px;
+  }
+
+  .address_inputs {
+    width: 53.4vw;
+    height: 5.7vw;
+    padding-bottom: 7px;
+    padding-left: 0.7vw;
+  }
+
+  .form_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .my_form_button {
+    font-size: 8px;
+    color: #fff;
+    width: 110px;
+    height: 25px;
+
+    border-radius: 30px;
+    border: 1px solid #194668;
+    background: linear-gradient(
+      180deg,
+      #194668 14.58%,
+      rgba(127, 161, 186, 0) 85.42%
+    );
+    box-shadow: 0px 2px 4px 0px rgba(255, 255, 255, 0.1);
+  }
+
+  .btn_class_center {
+    margin-top: 4px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .blurry_card {
+    width: 63vw;
+    height: 45vw !important;
+    padding: 3vw;
+  }
+
+  .bullet_img {
+    width: 50vw;
+  }
+
+  .buyer_form_content {
+    margin: 0vw 2vw;
+  }
+
+  .america_text {
+    font-size: 4vw;
+  }
+  .below_america_text {
+    font-size: 2.5vw;
+  }
+}

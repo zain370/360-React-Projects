@@ -1,0 +1,135 @@
+.main_feedback{
+    width: 100%;
+    height: auto;
+}
+.feedback_content{
+    margin-bottom: 4vw;
+}
+.feedback_headings{
+    color: #0E0E10;
+text-align: center;
+font-family: Poppins;
+font-size: 3vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.16px;
+margin-top: 4vw !important;
+margin-bottom: 3vw !important;
+}
+
+.feedback_flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 9vw;
+}
+
+.feedback_flex_col{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 4vw;
+}
+
+.client_profession{
+    color: #000;
+    font-family: Poppins;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.client_name{
+    color: #000;
+    text-align: left !important;
+text-align: center;
+font-family: Poppins;
+font-size: 1.5vw;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+
+.feedback{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+
+
+.star_img{
+width: 10vw;
+}
+
+.feedbackk_img{
+width: 17vw;
+}
+
+@media only screen and (max-width: 500px){
+
+
+    .star_img{
+        width: 15vw;
+        }
+        
+        .feedbackk_img{
+        width: 32vw;
+        }
+        
+    .feedback_flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 12vw;
+    }
+
+    .feedback{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: -0vw !important;
+    }
+    
+    .feedback_flex_col{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 8vw;
+    }
+
+    
+.client_profession{
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.7vw;
+
+}
+
+.client_name{
+    color: #000;
+    text-align: left !important;
+text-align: center;
+font-family: Poppins;
+font-size: 2.5vw;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+
+.feedback_headings{
+    font-size: 4vw !important;
+    margin-top: 10vw !important;
+}
+}

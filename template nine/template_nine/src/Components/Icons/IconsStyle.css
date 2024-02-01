@@ -1,0 +1,36 @@
+.main_beige_colored {
+  width: 100% !important;
+  height: 11vw;
+  background-color: #d1bb81 !important;
+}
+
+.icons_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.icon_content {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column;
+  gap: 0.5vw;
+}
+
+.icon_text {
+  color: #252525;
+  font-family: "Poppins";
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+
+.icons_class {
+  width: 5vw;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");

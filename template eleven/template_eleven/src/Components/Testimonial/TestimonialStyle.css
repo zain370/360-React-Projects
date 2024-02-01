@@ -1,0 +1,187 @@
+.main_testimonial_div {
+  width: 100%;
+  height: auto;
+  background: #171717;
+}
+
+.client_heading {
+  color: #fff;
+  font-family: "Lato";
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.16px;
+  text-align: center !important;
+  padding: 3vw 0px;
+  padding-bottom: 6vw !important;
+}
+
+.testimonial_col_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10vw;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1vw;
+  width: 28vw;
+}
+
+.profile_pic {
+  width: 9vw;
+}
+
+.profile_textual {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  gap: 1vw;
+}
+
+.client_profession {
+  color: #c6c6c6;
+  font-family: "Lato";
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.client_name {
+  color: #fff;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 1.8vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.72px;
+  text-align: left !important;
+}
+
+
+.review_img{
+width: 40vw ;
+}
+
+.testimonial_btn{
+    border-radius: 35px;
+border: 1px solid #000;
+background: #ABFF30;
+width: 14vw;
+height: 3vw;
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_center_flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:3vw ;
+    padding-bottom: 5vw;
+}
+
+.t_btn_text{
+    color: #000;
+text-align: justify;
+font-family: "Lato";
+font-size: 1.2vw;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.arrow_img{
+    width: 1.7vw;
+
+}
+
+.testimonial_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+
+@media only screen and (max-width: 500px){
+    .testimonial_row {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: center;
+        gap: 4vw;
+      }
+
+      .testimonial_col_flex {
+      gap: 10vw;
+      }
+      .client_heading {
+        font-size: 5vw;
+        padding: 8vw 0vw;
+      }
+
+
+      .profile_pic {
+        width: 14vw;
+      }
+      
+      .profile_textual {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        gap: 1vw;
+      }
+      
+      .profile{
+        width: 100%;
+      }
+      .client_profession {
+        color: #c6c6c6;
+        font-family: "Lato";
+        font-size: 2.3vw !important;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.48px;
+      }
+      
+      .client_name {
+        color: #fff;
+        text-align: center;
+        font-family: "Lato";
+        font-size: 3.2vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.72px;
+        text-align: left;
+      }
+      
+      
+      .review_img{
+      width: 60vw ;
+      }
+
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");

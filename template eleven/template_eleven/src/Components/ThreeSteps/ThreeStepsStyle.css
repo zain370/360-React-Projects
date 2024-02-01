@@ -1,0 +1,129 @@
+.main_steps_div {
+  width: 100%;
+  height: auto;
+  background: #171717;
+}
+
+.steps_heading {
+  padding-top: 6vw;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.steps_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 4vw;
+  gap: 3vw;
+  padding-bottom: 2vw;
+}
+
+.step_para {
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 0.9vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.9px;
+}
+.step_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  width: 23vw;
+  background-color: #252525;
+  padding: 2vw;
+  border-radius: 0.4vw;
+  height: 20vw !important;
+}
+
+.step_icon_img {
+  width: 6vw;
+}
+
+.step_card_heading {
+  color: #abff30;
+  text-align: center;
+  height: 3vw !important;
+  font-family: Lato;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+
+@media only screen and (max-width: 600px) {
+  .steps_heading {
+    padding-top: 6vw;
+    color: #fff;
+    text-align: center;
+    font-family: Lato;
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .steps_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+    margin-top: 4vw;
+    gap: 5vw;
+    width: 100% !important;
+    
+  }
+
+  .step_para {
+    color: #fff;
+    text-align: center;
+    font-family: Lato;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+  }
+  .step_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    width: 30vw !important;
+    background-color: #252525;
+    padding: 4vw;
+    border-radius: 0.4vw;
+    width: 60vw !important;
+    height: 40vw !important;
+  }
+
+  .step_icon_img {
+    width: 10vw;
+  }
+
+  .step_card_heading {
+    color: #abff30;
+    text-align: center;
+    height: 6vw !important;
+    font-family: Lato;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+  }
+}

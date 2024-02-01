@@ -1,0 +1,68 @@
+.main_convenience_div{
+    width: 100%;
+    height: auto;
+    background: #ABFF30;
+}
+
+.convenience_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    padding: 2vw;
+}
+
+.convenience_text{
+    color: #171717;
+text-align: center;
+font-family: Lato;
+font-size: 3vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.16px;
+}
+
+.below_convenience{
+    color: #171717;
+text-align: center;
+font-family: Lato;
+font-size: 1.7vw;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.68px;
+}
+
+.convenience_btn{
+    border-radius: 35px;
+border: 1px solid #72C000;
+box-shadow: 0px 0.2vw #72C000 !important;
+background: #F6F6F6;
+box-shadow: 0px 2px 4px 0px rgba(255, 255, 255, 0.10);
+width: 14vw !important;
+height: 3vw !important;
+
+color: #000;
+font-family: Lato;
+font-size: 1vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.7px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.call_us{
+    color: #171717;
+text-align: center;
+font-family: Lato;
+font-size:1.7vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.68px;
+}

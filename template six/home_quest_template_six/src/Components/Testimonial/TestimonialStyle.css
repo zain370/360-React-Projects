@@ -1,0 +1,94 @@
+.main_testimonial_div {
+  width: 100% !important;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column;
+  margin-top: 3vw;
+  margin-bottom: 2vw !important;
+  height: auto !important;
+}
+
+.main_testimonial_divv {
+  position: relative;
+  margin-bottom: 8vw !important;
+}
+
+.random_left_img {
+  width: 45vw;
+
+  /* z-index: 1; */
+}
+.random_left_div {
+  position: absolute;
+  top: -5vw;
+}
+.slick-dots li button:before {
+  background-image: url(./../../Assets/lightb.png);
+  box-shadow: none;
+  text-shadow: none;
+  color: transparent !important;
+  background-size: 0.8vw 0.8vw;
+  background-repeat: no-repeat;
+}
+
+.slick-slider {
+  width: 98% !important;
+}
+.ttt {
+  margin-left: 35vw;
+}
+
+.slick-dots {
+  margin: 2vw 0px !important;
+  width: 100% !important;
+}
+
+.testimonial_heading {
+  color: #000;
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.testimonial_img {
+  width: 30vw;
+}
+
+.dots_img_div {
+  margin-top: 1vw;
+}
+
+.dots_img {
+  width: 8vw;
+}
+
+@media only screen and (max-width: 991px) {
+  .testiminoal_img_div {
+    margin-top: 0.5vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .slick-dots {
+    margin-bottom: 3vw !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .testimonial_heading {
+    font-size: 6vw;
+  }
+
+  .testimonial_img {
+    width: 60vw !important;
+  }
+
+  .ttt {
+    margin-left: 22vw;
+  }
+}

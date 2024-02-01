@@ -1,0 +1,182 @@
+.main_question_colored {
+  width: 100%;
+  height: auto;
+  background: #fff4d9;
+}
+
+.questions_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0vw;
+  padding-bottom: 2vw !important;
+}
+
+.question_heading {
+  color: #0e0e10;
+  margin-top: 2vw;
+  font-family: "Poppins";
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.16px;
+  margin-bottom: 3vw !important;
+  margin-top: 2vw
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.accordion-button:not(.collapsed)::after {
+  display: none !important;
+}
+
+.accordion-button:after {
+  background-size: 1vw !important;
+  padding-right: 1vw !important;
+  display: none !important;
+}
+
+.accordion-button {
+  color: #000 !important;
+  /* width: 100% !important; */
+  font-family: "Poppins";
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  background-color: #fff !important;
+  border-radius: 3vw !important;
+  border: none !important;
+  border-color: #fff !important;
+  padding: 1.1vw !important;
+  /* box-shadow: 0px 2px green !important; */
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+.accordion-body {
+    
+  color: #5f605d;
+  font-family: Poppins;
+  font-size: 0.8vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  border: none !important;
+  border-color: #fff !important;
+  padding: 0vw 4vw 2vw 5.5vw !important;
+}
+
+.accordion-item {
+  margin: 1.2vw;
+  border-radius: 3vw;
+  border: none !important;
+  border-color: #fff !important;
+  box-shadow: 0px 0.3vw #fff623 !important;
+  /* border: 1px solid #FFF623 !important ; */
+}
+
+.accordion {
+  border-radius: 3vw !important;
+  border: none !important;
+  border-color: #fff !important;
+  z-index: 1;
+  /* width: 1100px; */
+  width: 58%;
+}
+
+#accordionPanelsStayOpenExample {
+  border-radius: 3vw;
+  border: none !important;
+  border-color: #fff !important;
+}
+
+.accordion-header {
+  border-radius: 3vw;
+  border: none !important;
+  border-color: #fff !important;
+}
+
+.accordion-item:first-of-type {
+  border-radius: 3vw !important;
+  border: none !important;
+  border-color: #fff !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-item:last-of-type {
+  border-radius: 3vw !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .accordion-button:after {
+    display: none !important;
+    background-size: 1vw !important;
+    padding-right: 1vw !important;
+    padding-left: 2vw !important;
+    /* padding-top: -5vw !important; */
+    margin-bottom: -1.5vw;
+  }
+
+  .accordion-button {
+    padding-top: 2vw !important;
+    padding: 1vw !important;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    display: none !important;
+    /* margin-left: 20vw; */
+    margin-top: -2vw;
+    margin-right: 1vw !important;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .accordion-button:after {
+    background-size: 1vw !important;
+    padding-right: 0vw !important;
+    padding-left: 0vw !important;
+    margin-bottom: -3.5vw;
+    margin-right: -3vw !important;
+  }
+}
+
+.accordion .accordion-button::before {
+  float: left; /* Move the icon to the left */
+  margin-right: 1rem; /* Add some spacing between the icon and text */
+}
+
+
+.plus_img{
+   width: 1.5vw !important;
+   margin-left: 1vw;
+}
+
+.width_row_accordian{
+    width: 100%;
+}
+
+.accordion{
+    margin: -0.6vw !important;
+}
+
+
+@media only screen and (max-width: 768px){
+  .accordion-button {
+    font-size: 1.5vw;
+  }
+.accordion-body {
+
+  font-size: 1.2vw;
+
+}
+}

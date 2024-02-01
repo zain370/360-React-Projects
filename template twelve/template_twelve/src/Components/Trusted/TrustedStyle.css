@@ -1,0 +1,83 @@
+.main_trusted_div{
+    width: 100%;
+    height: auto !important;
+
+}
+
+.tri_div{
+    background-image: url(./../../Assets/triangle.png);
+    width: 100%;
+    height: 48vw !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Kavoon&display=swap");
+
+.trusted_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3vw 0vw;
+    gap: 2vw;
+}
+
+.trusted_text{
+    color: #FFF;
+text-align: center;
+text-shadow: 0px 6px 0px #000747;
+font-family: "Kavoon";
+font-size: 4.7vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.below_trusted{
+    color: #FFF;
+text-align: center;
+font-family: sans-serif;
+font-size: 2.6vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.tri_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.trusted_btn{
+    width: 27vw;
+height: 6.5vw;
+border-radius: 1vw;
+background: #85B400;
+box-shadow: 0px 0.3vw white;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
+.tr_btn_txt{
+    color: #FFF;
+text-align: center;
+font-family: sans-serif;
+font-size: 3.5vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.phone_img{
+    width: 4vw;
+}
+
+.cash_img{
+    width: 27vw;
+}

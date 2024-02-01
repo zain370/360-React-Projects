@@ -1,0 +1,258 @@
+.main_div_navbar {
+  width: 83%;
+  margin-left: 8% !important;
+}
+
+.company_logo_image {
+    width: 8vw;
+    /* height: 5vw; */
+  }
+
+
+.button_navbar_end {
+  display: flex;
+  flex-direction: row;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 15vw !important;
+  height: 3vw !important;
+  border-radius: 0px 1vw 0px 0px !important;
+  background: #ffac12;
+  gap: 0.5vw;
+}
+.nav_btn_text{
+    color: #000;
+font-family: Merriweather;
+font-size: 1vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0;
+}
+.toparow_div {
+  height: auto;
+  width: auto;
+  padding-bottom: 0vw;
+}
+
+.toparrow_img {
+  width: 2vw;
+}
+
+.navbar_text_links {
+  margin-left: 7% !important;
+}
+
+@media only screen and (max-width: 2760px) {
+
+
+
+  .navbar_text_links {
+    margin-left: 3vw !important;
+  }
+
+  .why_review_faq_text {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 3vw !important;
+  }
+}
+
+@media only screen and (max-width: 1900px) {
+    .toparow_div {
+        height: auto;
+        width: auto;
+        padding-bottom: 0.5vw;
+      }
+  .main_div_navbar {
+    width: 83% !important;
+    margin-left: 10% !important;
+  }
+
+}
+
+@media only screen and (max-width: 1600px) {
+  .company_logo_image {
+    width: 10vw;
+  }
+
+  .navbar_text_links {
+    margin-left: 10% !important;
+  }
+
+  .why_review_faq_text {
+    color: #fff;
+
+    font-family: Poppins;
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    padding-right: 20px !important;
+  }
+  .why_review_faq_text:hover {
+    color: #194668;
+    font-family: "Poppins";
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    padding-right: 20px !important;
+  }
+ 
+}
+
+@media only screen and (max-width: 1440px) {
+
+
+  .main_div_navbar {
+    width: 83%;
+    margin-left: 10%;
+  }
+
+ 
+}
+
+@media only screen and (max-width: 1300px) {
+  .main_div_navbar {
+    width: 94% !important;
+    margin-left: 2% !important;
+  }
+
+
+  .navbar_text_links {
+    margin-left: 10% !important;
+  }
+
+  
+}
+
+@media only screen and (max-width: 1080px) {
+  .main_div_navbar {
+    width: 94% !important;
+    margin-left: 2% !important;
+  }
+  .company_logo_image {
+    width: 15vw;
+    height: 11vw;
+  }
+
+ 
+
+  .navbar_text_links {
+    margin-left: 0% !important;
+  }
+
+  
+
+ 
+
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .main_div_navbar {
+    width: 94% !important;
+    margin-left: 2% !important;
+  }
+  .company_logo_image {
+    width: 120px;
+    height: 90px;
+  }
+
+ 
+
+  .navbar_text_links {
+    margin-left: 0% !important;
+  }
+
+  
+}
+
+@media only screen and (max-width: 446px) {
+  .main_div_navbar {
+    width: 94% !important;
+    margin-left: 2% !important;
+  }
+
+
+  .navbar_text_links {
+    margin-left: 0% !important;
+  }
+
+  
+
+ 
+}
+
+@media only screen and (max-width: 991px) {
+  .button_navbar_end {
+    margin-bottom: 2vw !important;
+  }
+  .button_navbar_end {
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 180px !important;
+    height: 35px !important;
+    border-radius: 0px 2vw 0px 0px !important;
+    background: #ffac12;
+    margin-left: 3vw !important;
+    /* gap: 0vw !important; */
+  }
+
+  .nav_btn_text{
+    color: #000;
+font-family: Merriweather;
+font-size: 15px;
+
+}
+.toparrow_img {
+    width: 20px;
+  }
+}
+
+
+
+
+.hamburger {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  z-index: 1000;
+}
+.hamburger span {
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  margin: 3px 0;
+  transition: 0.3s;
+}
+/* Hamburger animation styles */
+.hamburger.active span:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@media only screen and (max-width: 1600px) {
+
+
+  .button_navbar_end{
+    margin-right: ;
+  }
+}

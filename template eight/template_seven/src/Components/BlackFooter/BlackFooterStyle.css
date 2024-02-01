@@ -1,0 +1,228 @@
+.black_main_div {
+  width: 100%;
+  height: 30vw;
+  background: linear-gradient(226deg, #271a00 0%, rgba(0, 0, 0, 0.98) 44.79%);
+}
+
+.footer_content {
+  width: 76%;
+  margin-left: 12%;
+}
+
+.footer_column_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column !important;
+  gap: 2vw;
+  padding: 3vw;
+}
+
+.two_yellow_flex {
+  display: flex;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 32vw;
+}
+
+.your_logo_class {
+  width: 29vw;
+  height: 5vw;
+  background: #ffac12;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: Merriweather;
+  font-size: 2.4vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  /* letter-spacing: -1.256px; */
+}
+
+.right_offer_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 13vw;
+  height: 2.5vw;
+  border-radius: 0px 1vw 0px 0px;
+  background: #ffac12;
+  gap: 0.5vw;
+}
+
+.offer_txt {
+  color: #000;
+  font-family: Merriweather;
+  font-size: 0.9vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.427px;
+}
+
+.offer_arrow_img {
+  width: 1.5vw !important;
+}
+
+.myLine {
+  width: 74vw;
+  height: 4px;
+  flex-shrink: 0;
+  opacity: 0.1;
+  background: #fff;
+}
+
+.links_flex {
+  height: 13vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 12vw;
+}
+
+.social_media {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  gap: 2vw;
+  flex-direction: row;
+  margin-right: 6vw;
+}
+
+.fb_class {
+  width: 0.8vw;
+  height: 2vw;
+}
+
+.ins_class {
+  width: 2vw;
+  height: 2vw;
+}
+
+.quick_links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  gap: 1vw;
+  width: 15vw !important;
+  /* padding-bottom: 2vw; */
+}
+
+.link_row1 {
+  margin-top: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+
+.myDot {
+  width: 0.4vw;
+}
+
+.link_row {
+  /* margin-top: 2vw; */
+  display: flex;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 1vw;
+}
+
+.call_txt_div {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 20vw !important;
+  color: #fff;
+  font-family: Lato;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media only screen and (max-width: 1150px) {
+  .black_main_div {
+    width: 100%;
+    height: 40vw;
+    background: linear-gradient(226deg, #271a00 0%, rgba(0, 0, 0, 0.98) 44.79%);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .links_flex {
+    height: 13vw;
+    display: flex;
+    align-items: self-start;
+    justify-content: flex-start;
+    flex-direction: column !important;
+    gap: 12vw;
+  }
+  .black_main_div {
+    width: 100%;
+    height: 80vw;
+    background: linear-gradient(226deg, #271a00 0%, rgba(0, 0, 0, 0.98) 44.79%);
+  }
+
+  .footer_column_flex {
+    display: flex;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    flex-direction: column !important;
+    gap: 0vw !important;
+    padding: 3vw;
+  }
+
+  .social_media {
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    margin-left: -14vw !important;
+  }
+
+  .quick_links {
+    font-size: 3vw !important;
+    width: 30vw !important;
+  }
+
+  .call_txt_div {
+   
+    font-size: 3vw !important;
+    width: 100% !important;
+
+  }
+
+  .fb_class {
+    width: 2vw;
+    height: 4vw;
+  }
+  
+  .ins_class {
+    width: 4vw;
+    height: 4vw;
+  }
+.social_media{
+    gap: 8vw !important;
+}
+
+}
+
+
+@media only screen and (max-width: 400px) {
+    .black_main_div {
+      width: 100%;
+      height: 90vw !important;
+      background: linear-gradient(226deg, #271a00 0%, rgba(0, 0, 0, 0.98) 44.79%);
+    }
+  }

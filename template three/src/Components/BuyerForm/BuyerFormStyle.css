@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.namebuyform{
+    background-image: url(./../../Assets/formback.png) ;
+    width: 100% !important;
+    height: 690px !important;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+}
+
+.behind_form{
+    height: 580px;
+    width: 100%;
+}
+
+.main_america{
+    padding-top: 50px;
+}
+.america_text{
+    color: #FFF;
+    /* font-family: "Poppins"; */
+    /* font-size: 700%; */
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%; /* 104px */
+    letter-spacing: 5.2px;  
+}
+
+.schedule_text{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;    
+    padding-top: 20px;
+}
+
+.buyer_text{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #469EFC;
+    text-decoration-skip-ink: none ;
+}
+
+.side_form_background{
+    border-radius: 30px;
+    background: #062B63; 
+    width: 17vw;
+    height: 500px;
+    flex-shrink: 0;
+    margin-top : 50px !important;       
+}
+
+.form_heading{
+    color: #F8F9FB;
+    font-family: Poppins;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.actual_form{
+    padding-top: 5%;
+    padding-left: 11%;
+}
+
+.my_form_labels{
+    color: #F8F9FB;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;    
+}
+
+.my_form_inputs{
+    width: 13vw;
+    height: 38px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.my_form_button{
+    width: 12vw;
+    height: 2.7vw;
+    border-radius: 10px;
+    border: 1px solid #073B74;
+    background: linear-gradient(180deg, #218CFF 0%, #053568 90.10%);
+    box-shadow: 0px 2px 4px 0px rgba(255, 255, 255, 0.10);    
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 0.9vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.7px;   
+    margin-left: 5px; 
+    margin-top: 3%;
+}
+
+.btn_class_center{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.lower_buttons{
+    height: 110px;
+    display: flex;
+    align-items: flex-end !important;
+    justify-content: space-around;
+
+}
+
+.end_five_buttons{
+    border-radius: 1.5vw 1.5vw 0px 0px;
+    background: #062B63;
+    width: 17% !important;
+    height: 3.2vw !important;   
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+    display: flex;
+    align-items: center;
+   padding-top: 10px;
+   /* margin-left: -39px !important; */
+}
+
+.rightmost_button{
+    margin-right: 4% !important;
+}
+
+.leftmost_button{
+    margin-left: 4% !important;
+}
+
+.buttons_icon{
+    width: 2vw ;
+    height: 1.5vw ;
+    aspect-ratio: 1/1;
+}
+
+.icons_text{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.8px;    
+    padding-left: 4%;
+    padding-top: 5%;
+}
+
+
+@media only screen and (max-width: 1600px){
+
+    .side_form_background{
+        margin-left: 10%;
+        height: 470px !important;
+
+    }  
+    
+} 
+
+@media only screen and (max-width: 1300px){
+
+    .side_form_background{
+        width: 230px !important;
+        height: 420px !important;
+        margin-left: 20px ;
+    }  
+
+    .my_form_button{
+        margin-top: 0 !important;
+    }   
+    
+    .my_form_inputs{
+        width: 175px;
+        height: 32px;
+        margin-bottom: 10px;
+    }    
+
+    .my_form_button{
+       margin-left: 8%;
+    }
+
+    .icons_text{
+        font-size: 8px;
+    }
+} 
+
+@media only screen and (max-width: 1150px){
+ 
+    .side_form_background{
+        
+        margin-left: -10%;
+
+    } 
+
+    .my_form_button{
+        width: 130px;
+        height: 35px;
+        border-radius: 7px;
+        border: 1px solid #073B74;
+        background: linear-gradient(180deg, #218CFF 0%, #053568 90.10%);
+        box-shadow: 0px 2px 4px 0px rgba(255, 255, 255, 0.10);    
+        color: #FFF;
+        font-family: "Poppins";
+        font-size: 0.9vw;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.7px;   
+        margin-left: 5px; 
+        margin-top: 3%;
+        margin-left: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 767px){
+  
+    .side_form_background{
+        margin-left: 2vw;
+        border-radius: 30px;
+        width: 220px !important;
+        height: 370px !important;
+        margin-top : 10px !important;       
+    }
+
+    .lower_buttons{
+        display: none;
+    }
+    
+    .form_heading{
+        font-size: 1.5vw;
+    }
+
+    .actual_form{
+        padding-top: 5%;
+        padding-left: 10%;
+    }
+    
+    .my_form_labels{
+        color: #F8F9FB;
+        font-family: Poppins;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.7px;    
+    }
+    
+    .my_form_inputs{
+        width:170px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .my_form_button{
+        width: 125px;
+        height: 25px;
+        border-radius: 6px;
+        border: 1px solid #073B74;
+        background: linear-gradient(180deg, #218CFF 0%, #053568 90.10%);
+        box-shadow: 0px 2px 4px 0px rgba(255, 255, 255, 0.10);    
+        color: #FFF;
+        font-family: "Poppins";
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.7px;   
+        margin-left: 20px; 
+        margin-top: -15px !important;
+    }
+
+    .third_div{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+  .main_america{
+
+    text-align: left;
+    padding-left: 10vw;
+    padding-top: 3vw !important;
+
+  }
+
+
+
+  .schedule_text{
+    padding-top: 5px !important;
+    font-size: 3vw !important;
+  }
+}
+
+@media only screen and (min-width: 2000px){
+    .america_text{
+        color: #FFF;
+        /* font-family: "Poppins"; */
+        /* font-size: 700%; */
+        font-size: 5vw;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100%; /* 104px */
+        letter-spacing: 5.2px;  
+    }
+    
+    .schedule_text{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 2vw;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;    
+        padding-top: 20px;
+    }
+
+    .namebuyform{
+        width: 100% !important;
+        height: 790px !important;
+        background-size: cover;
+        background-repeat: no-repeat !important;
+    }
+    
+.lower_buttons{
+    height: 210px;
+    display: flex;
+    align-items: flex-end !important;
+    justify-content: space-around;
+
+}
+.side_form_background{
+    border-radius: 30px;
+    background: #062B63; 
+    width: 17vw;
+    height: 570px;
+    flex-shrink: 0;
+    margin-top : 50px !important;       
+    margin-left: 2vw !important;
+}
+}

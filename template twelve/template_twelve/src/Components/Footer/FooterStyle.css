@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar&display=swap");
+
+.main_footer_div{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5vw;
+}
+
+.footer_row_contet{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    /* gap: 7vw; */
+}
+
+.left_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 20vw;
+    gap: 1vw;
+}
+
+.below_logo_img{
+    color: #606060;
+font-family: Akshar;
+font-size: 1.7vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.logo_image{
+    width: 18vw;
+}
+
+.middle_footer{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+}
+
+.link_heading{
+    color: #343C82;
+text-align: center;
+font-family: Akshar;
+font-size: 2vw;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 4vw 0vw;
+}
+
+.mylist{
+    color: #606060;
+font-family: Akshar;
+font-size: 1.7vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.last_footer{
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.below_contact{
+    color: #000;
+    text-align: center;
+    font-family: Akshar;
+    font-size: 0.9vw;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 2vw;
+}
+
+.contact_txt{
+    color: #343C82;
+font-family: Akshar;
+font-size:2vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 4vw;
+
+}
+
+.first_two_inputs{
+    width:25vw;
+height: 2.5vw;
+font-size: 1vw;
+border-radius: 0.7vw;
+background: #DEDEDE;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+padding: 1vw;
+gap: 2vw;
+}
+
+.footer_form_input{
+    background: transparent;
+    border: none;
+    outline: none !important;
+}
+
+.footer_form_input::placeholder{
+    color: #2C2C2C;
+font-family: Akshar;
+font-size: 1.1vw;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.footer_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.lastinput{
+    width: 25vw;
+height: 10vw;
+border-radius: 0.7vw;
+background: #DEDEDE;
+
+
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+padding: 1vw;
+
+}
+
+.lastinputfield{
+    border: none;
+outline: none;
+width: 22vw;
+height: 8vw;
+background: transparent;
+}
+
+.myTextarea {
+  
+    font-size: 16px; /* Change the font size */
+width: 25vw;
+height: 10vw;
+background: #DEDEDE;
+border: none;
+border-radius: 0.6vw;
+padding: 1vw;
+outline: none;
+  }
+
+  .footer_btn{
+    border-radius: 10px;
+background: #343C82;
+width: 25vw;
+height: 2.5vw;
+color: #FFF;
+font-family: Akshar;
+font-size: 1.3vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+
+  .user_img{
+    width: 2vw;
+  }
+
+  
+@media only screen and (max-width: 576px){
+    .footer_row_contet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5vw;
+      
+    }
+    
+
+
+    .left_footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        gap: 1vw;
+    }
+    
+    .below_logo_img{
+        color: #606060;
+    font-family: Akshar;
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: normal;
+    text-transform: capitalize;
+    }
+    
+    .logo_image{
+        width: 28vw;
+    }
+    
+    .middle_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .link_heading{
+        color: #343C82;
+    text-align: center;
+    font-family: Akshar;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 4vw 0vw;
+    }
+    
+    .mylist{
+        color: #606060;
+    font-family: Akshar;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    }
+    
+    .last_footer{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    }
+    
+    .below_contact{
+        color: #000;
+        text-align: center;
+        font-family: Akshar;
+        font-size: 2vw;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+       margin-bottom: 2vw;
+    }
+    
+    .contact_txt{
+        color: #343C82;
+    font-family: Akshar;
+    font-size:4vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    
+    }
+    
+    .first_two_inputs{
+        width:50vw;
+    height:5vw;
+    border-radius: 1.2vw;
+    background: #DEDEDE;
+    display: flex;
+    font-size: 1.7vw !important;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0vw 2vw;
+    gap: 2vw;
+    }
+    
+    .footer_form_input{
+        background: transparent;
+        border: none;
+        outline: none !important;
+    }
+    
+    .footer_form_input::placeholder{
+        color: #2C2C2C;
+    font-family: Akshar;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    }
+    
+    .footer_form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1vw;
+    }
+    
+    .myTextarea {
+      
+        font-size: 2vw; /* Change the font size */
+    width: 50vw;
+    height: 20vw;
+    background: #DEDEDE;
+    border: none;
+    border-radius: 1.5vw;
+    padding: 1vw;
+    outline: none;
+    
+      }
+    
+      .footer_btn{
+        border-radius: 1.2vw;
+    background: #343C82;
+    width: 50vw;
+    height: 4vw;
+    color: #FFF;
+    font-family: Akshar;
+    font-size:2vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    outline: none;
+      }
+    
+      .user_img{
+        width: 3vw;
+      }
+    
+
+}

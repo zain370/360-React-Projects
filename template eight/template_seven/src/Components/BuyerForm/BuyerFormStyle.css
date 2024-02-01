@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+
+.buyer_full_width {
+  width: 100%;
+  height: auto;
+  position: relative !important;
+
+}
+
+.buyer_content {
+  margin-top: 6vw;
+  width: 68%;
+  margin-left: 16%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column !important;
+  gap: 5vw;
+}
+
+.america_heading {
+  color: #ffac12;
+  font-family: Merriweather;
+  font-size: 3.5vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  /* position: fixed !important; */
+
+}
+
+.below_america_heading {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 3vw;
+}
+.offer_form_div {
+  background-color: white;
+  width: 68vw;
+  height: 7vw;
+  position: absolute !important;
+  bottom: 0 !important;
+}
+
+.flex_form {
+  height: 7vw !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1vw;
+}
+
+.my_form_button {
+    margin-right: 3vw;
+    background-color: #fff !important;
+  fill: #fff;
+  stroke-width: 1px;
+  stroke: #4764c3;
+  border: 1px solid blueviolet;
+  border-radius: 0.3vw;
+  width: 10vw;
+  height: 3vw;
+  color: #000;
+  font-family: Merriweather;
+  font-size: 0.9vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.503px;
+}
+
+.yarrow_img {
+  width: 1.5vw;
+  margin-left: 0.5vw;
+}
+
+.my_form_inputs {
+    background-color: #fff !important;
+padding-left: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1vw !important;
+
+  fill: #fff;
+  /* stroke-width: 1px; */
+  stroke: #4764c3;
+
+  outline: none;
+  width: 9vw;
+  height: 3vw;
+ border: 1px solid blueviolet;
+ border-radius: 0.3vw;
+}
+
+.my_form_input {
+    border: 1px solid blueviolet;
+    border-radius: 0.3vw;
+    background-color: #fff !important;
+    padding-left: 1vw;
+font-size: 1vw !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  fill: #fff;
+  stroke-width: 1px;
+  stroke: #4764c3;
+outline: none;
+  width: 11vw;
+  height: 3vw;
+}
+
+
+::placeholder {
+    padding-left: 0.5vw;
+    color: #FFAC12;
+    font-family: Lato;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+
+  }
+
+
+  @media only screen and (max-width: 767px){
+    .my_form_button {
+      width: 15vw !important;
+    }
+    
+.offer_form_div {
+    background-color: white;
+    width: 85vw;
+    height: 7vw;
+  }
+  
+  .flex_form {
+    height: 7vw !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1vw;
+  }
+  
+  .my_form_button {
+      margin-right: 3vw;
+      background-color: #fff !important;
+    fill: #fff;
+    stroke-width: 1px;
+    stroke: #4764c3;
+    border: 1px solid blueviolet;
+    border-radius: 0.3vw;
+    width: 13vw;
+    height: 4vw;
+    color: #000;
+    font-family: Merriweather;
+    font-size: 1.4vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.503px;
+  }
+  
+  .yarrow_img {
+    width: 1.5vw;
+    margin-left: 0.5vw;
+  }
+  
+  .my_form_inputs {
+      background-color: #fff !important;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    fill: #fff;
+    /* stroke-width: 1px; */
+    stroke: #4764c3;
+  
+    outline: none;
+    width: 11vw !important;
+    height: 4vw !important;
+   border: 1px solid blueviolet;
+   border-radius: 0.3vw;
+   padding-bottom: 1vw;
+
+  }
+  
+  .my_form_input {
+      border: 1px solid blueviolet;
+      border-radius: 0.3vw;
+      background-color: #fff !important;
+      padding-bottom: 1vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    fill: #fff;
+    stroke-width: 1px;
+    stroke: #4764c3;
+  outline: none;
+    width: 13vw;
+    height: 4vw;
+  }
+  
+  
+  ::placeholder {
+      padding-left: 1.5vw;
+      color: #FFAC12;
+      font-family: Lato;
+      font-size: 1.4vw;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      display: flex;
+  
+    }
+  
+
+  }
+
+
+  @media only screen and (max-width: 500px){
+    .my_form_inputs {
+       
+     padding-bottom: 1vw;
+  
+    }
+    
+    .my_form_input {
+      
+        padding-bottom: 1vw;
+
+    }
+
+    .america_heading {
+      color: #ffac12;
+      font-family: Merriweather;
+      font-size: 7vw;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      /* position: fixed !important; */
+    
+    }
+    
+    .below_america_heading {
+      color: #fff;
+      font-family: Merriweather;
+      font-size: 3vw;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 3vw;
+    }
+    
+    
+  }
+
+  

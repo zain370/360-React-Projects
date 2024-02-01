@@ -1,0 +1,229 @@
+.main_queations_div {
+  width: 100%;
+  height: auto !important;
+}
+
+.questions_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5vw;
+}
+
+.left_faq_flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 8vw;
+  margin-top: 2vw;
+  gap: 1vw;
+  width: 50vw !important;
+}
+
+.faq_text {
+  color: #000;
+  font-family: Merriweather;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.256px;
+}
+
+.strip4_class {
+  width: 22vw;
+}
+
+.my_accordion {
+  width: 35vw !important;
+  border-color: transparent !important;
+}
+
+.xyz {
+  border-radius: 53px !important;
+  border: 2px solid #ffac12;
+  background: #fff;
+  margin-bottom: 1vw !important;
+  box-shadow: 0px 0.2vw #ffac12;
+  outline: none;
+}
+
+.abc {
+  /* border-radius: 5vw !important; */
+  height: 2.5vw !important;
+  background-color: transparent !important;
+  border: none !important;
+  border-color: red !important;
+
+  color: #000;
+  font-family: Merriweather;
+  font-size: 0.8vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.yellow_arr {
+  width: 1.7vw;
+}
+
+.my_divvv {
+  margin-top: 0.7vw;
+}
+
+.accordion-header {
+  border: none !important;
+  border-color: transparent !important;
+  outline: none !important;
+}
+
+.accordion {
+  border: none !important;
+  border-color: transparent !important;
+  outline: none !important;
+}
+
+.accordion-button::after {
+  display: none !important;
+}
+
+.my_class {
+  border: none !important;
+  border-color: transparent !important;
+  outline: none !important;
+}
+
+.meeting2class {
+  width: 40vw;
+}
+
+.accordion-body {
+  font-size: 1vw;
+}
+
+@media only screen and (max-width: 991px) {
+.xyz{
+    margin-left: -10vw !important;
+    width: 60vw;
+}
+
+  .accordion-body {
+    font-size: 1.3vw;
+    font-family: sans-serif;
+  }
+  .questions_content {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 5vw;
+    flex-direction: column !important;
+    gap: 4vw;
+  }
+
+  .my_accordion {
+    width: 60vw !important;
+    border-color: transparent !important;
+  }
+
+  .yellow_arr {
+    width: 2.7vw;
+  }
+
+  .abc {
+    /* border-radius: 5vw !important; */
+    height: 2.5vw !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-color: red !important;
+
+    color: #000;
+    font-family: Merriweather;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .faq_text {
+    font-size: 3.5vw !important;
+  }
+
+  .strip4_class {
+    width: 22vw;
+  }
+  .left_faq_flex {
+    margin-left: 0vw !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .meeting2class {
+    width: 55vw !important;
+  }
+
+  .xyz {
+    margin-left: -6vw !important;
+  }
+
+  .questions_content {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 5vw;
+    flex-direction: column !important;
+    gap: 4vw;
+  }
+
+  .my_accordion {
+    width: 70vw !important;
+    border-color: transparent !important;
+  }
+
+  .yellow_arr {
+    width: 4.5vw;
+  }
+
+  .abc {
+    height: 1vw !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-color: red !important;
+
+    color: #000;
+    font-family: Merriweather;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .faq_text {
+    font-size: 5vw !important;
+  }
+
+  .strip4_class {
+    width: 22vw;
+  }
+  .left_faq_flex {
+    margin-left: -25vw !important;
+  }
+  .xyz {
+    border-radius: 53px !important;
+    border: 2px solid #ffac12;
+    background: #fff;
+    margin-bottom: 2vw !important;
+    box-shadow: 0px 0.2vw #ffac12;
+    outline: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .my_accordion {
+    width: 80vw !important;
+    border-color: transparent !important;
+  }
+}
+
+
+.accordion-button:focus{
+    box-shadow: none;
+}

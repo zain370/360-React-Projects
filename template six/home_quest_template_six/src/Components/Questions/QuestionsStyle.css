@@ -1,0 +1,313 @@
+.main_questions_div {
+  width: 100%;
+  height: 44vw;
+  background: #194668;
+}
+
+.inner_questions_div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 90% !important;
+  margin-left: 10% !important;
+  gap: 5vw;
+}
+
+.questions_headings {
+  text-align: left !important;
+  margin-top: 8vw !important;
+  margin-bottom: 2vw;
+  color: #0e0e10;
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.16px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.accordian_content_classs {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(./../../Assets/minus_icon.png) !important;
+}
+
+.accordion-button:after {
+  background-image: url(./../../Assets/plus_icon.png) !important;
+  background-size: 1vw !important;
+  padding-right: 1vw !important;
+}
+
+.accordion-button {
+  color: #fff !important;
+  font-family: sans-serif;
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  background-color: transparent !important;
+  border: none !important;
+  padding: 1.1vw !important;
+  box-shadow: none !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.accordion-body {
+  color: #dedede;
+  font-family: sans-serif;
+  font-size: 0.8vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  padding: 0vw 11vw 1vw 1vw !important;
+}
+
+.accordion-item {
+  background-color: transparent !important;
+
+  margin-bottom: -1vw;
+
+  border: none !important;
+  border-color: transparent !important;
+}
+
+.accordion {
+  border-radius: 1.2vw !important;
+  border: none !important;
+  border-color: transparent !important;
+  z-index: 1;
+  /* width: 1100px; */
+  width: 50%;
+}
+
+#accordionPanelsStayOpenExample {
+  border-radius: 1.2vw;
+  border: none !important;
+  border-color: transparent !important;
+}
+
+.accordion-header {
+  border-radius: 1.2vw;
+  border: none !important;
+  border-color: transparent !important;
+}
+
+.accordion-item:first-of-type {
+  border-radius: 1.2vw !important;
+  border: none !important;
+  border-color: transparent !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-item:last-of-type {
+  border-radius: 1.2vw !important;
+}
+
+@media only screen and (max-width: 1500px) {
+  .accordion-button:not(.collapsed)::after {
+    /* margin-left: 20vw; */
+
+    margin-right: 0.4vw !important;
+    /* padding-left: -2px; */
+  }
+}
+
+@media only screen and (max-width: 1750px) {
+  .accordion-button:not(.collapsed)::after {
+    margin-right: 0.3vw !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .questions_headings {
+    /* font-size: 9vw !important; */
+    margin-left: 5vw !important;
+  }
+
+  .third_input {
+    height: 11vw !important;
+  }
+
+  .main_questions_div {
+    width: 100%;
+    height: 59%;
+    background: #194668;
+  }
+  .my_form_labels {
+    font-size: 2.3vw !important;
+  }
+
+  .more_text {
+    font-size: 5vw !important;
+  }
+
+  .inner_questions_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100% !important;
+    margin-left: 0% !important;
+    gap: 5vw;
+  }
+
+  .questions_headings {
+    font-size: 4vw !important;
+  }
+
+  .accordion-button:after {
+    background-image: url(./../../Assets/plus_icon.png) !important;
+    background-size: 1vw !important;
+    padding-right: 1vw !important;
+    padding-left: 2vw !important;
+    /* padding-top: -5vw !important; */
+    margin-bottom: -1.5vw;
+  }
+
+  .accordion-button {
+    padding-top: 2vw !important;
+    padding: 1vw !important;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    /* margin-left: 20vw; */
+    margin-top: -2vw;
+    margin-right: 2vw !important;
+    /* padding-left: -2px; */
+  }
+
+  .accordion-button {
+    color: #fff !important;
+    font-family: sans-serif;
+    font-size: 2.4vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    background-color: transparent !important;
+    border-radius: 1.2vw !important;
+    border: none !important;
+    border-color: transparent !important;
+    padding: 1.5vw !important;
+    box-shadow: none !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    /* padding-right: 4vw !important; */
+  }
+
+  .accordion-body {
+    background-color: transparent !important;
+    color: #dedede;
+    font-family: sans-serif;
+    font-size: 1.8vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    border: none !important;
+    border-color: transparent !important;
+    padding: 0vw 11vw 1vw 1vw !important;
+  }
+
+  .accordion-item {
+    background-color: transparent !important;
+
+    margin-bottom: -1vw;
+    border-radius: 1.2vw;
+    border: none !important;
+    border-color: transparent !important;
+  }
+
+  .accordion {
+    border-radius: 1.2vw !important;
+    border: none !important;
+    border-color: transparent !important;
+    z-index: 1;
+    /* width: 1100px; */
+    width: 75% !important;
+  }
+
+  .inner_questions_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .accordion-button:after {
+    background-image: url(./../../Assets/plus_icon.png) !important;
+    background-size: 1vw !important;
+    padding-right: 0vw !important;
+    padding-left: 0vw !important;
+    margin-bottom: -3.5vw;
+    margin-right: -3vw !important;
+  }
+}
+
+.more_text {
+  color: #0e0e10;
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 2.5vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
+
+.my_form_labels {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 0.9vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  /* padding-left: vw; */
+  padding-top: 1vw;
+}
+
+.myy_form_inputs {
+  border: none; /* Remove all borders */
+  border-bottom: px solid #fff !important; /* Add a bottom border */
+  outline: none; /* Remove the focus outline */
+  background: transparent; /* Use a transparent background */
+  width: 100%; /* Set the width as needed */
+  box-sizing: border-box;
+  color: #fff;
+  font-family: sans-serif;
+  margin-top: -3vw !important;
+}
+
+.third_input {
+  height: 6vw;
+}
+
+.more_questions {
+  margin-top: 8.5vw !important;
+}
+
+.more_text {
+  margin-bottom: 2vw;
+}

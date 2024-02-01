@@ -1,0 +1,130 @@
+.comparison_full_width {
+  width: 100%;
+}
+
+.comparison_manual_width {
+  width: 82%;
+  margin-left: 9%;
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+}
+
+.comparison_content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column !important;
+  gap: 1vw;
+}
+
+.strip_2_class {
+  width: 11vw !important;
+}
+
+.comparison_heading {
+  color: #000;
+  font-family: Merriweather;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 3vw;
+}
+
+.actual_comparison_div {
+  width: auto;
+  height: auto;
+}
+
+.yellow_divs {
+  width: 26vw;
+  height: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3vw;
+  background: rgba(255, 172, 18, 0.67);
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1vw;
+}
+
+.left_column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  width: 26vw;
+
+  height: 2.5vw;
+
+  border: 1px solid #d9d9d9;
+  background: #ffac12;
+}
+
+.center_column {
+  border: 1px solid #2c2c2c;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26vw;
+  height: 2.5vw;
+  color: #2c2c2c;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.right_column {
+    border: 1px solid #2c2c2c;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26vw;
+    height: 2.5vw;
+    color: #2c2c2c;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 1.1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.col-4{
+    margin: 0px !important;
+   padding: 0.3vw !important;
+}
+
+
+@media only screen and (max-width: 767px){
+  .comparison_heading{
+    margin-top: -1vw !important;
+    font-size: 3.5vw;
+
+  }
+}
+@media only screen and (max-width: 400px){
+  .comparison_heading{
+    margin-top: -2vw !important;
+  }
+}

@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap");
+
+.main_buter_pic {
+  background-image: url(./../../Assets/bighouse.png);
+  width: 100%;
+  height: 45vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bullet_img{
+    width: 2vw;
+}
+.buyer_form_content {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: row;
+  height: 100%;
+  gap: 10vw;
+}
+
+.textual {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.america_text {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 5vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 104px */
+  letter-spacing: 5.2px;
+  text-shadow: 0 0 10px blue;
+}
+
+.below_america_text {
+  color: #122145;
+
+  font-family: Ubuntu;
+  font-size: 1.7vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.my_bullets {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0.5vw;
+}
+
+.bullet_row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1vw;
+}
+
+.bullet {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.bullet_txt {
+  color: #122145;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+
+.my_form {
+  width: 36vw;
+  height: 33vw;
+  border-radius: 1vw 0px 0px 1vw;
+  background: #f6f6f6;
+  padding: 2vw;
+}
+
+.form_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2vw;
+}
+.form_heading {
+  color: #122145;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 2.5vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.actual_form {
+  width: 80%;
+}
+.my_form_labels {
+  color: #2c2c2c;
+  font-family: Ubuntu;
+  font-size: 1.3vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 5.5vw;
+}
+
+.myy_form_inputs {
+  color: #2c2c2c;
+  font-family: Ubuntu;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  outline: none; /* Remove the focus outline */
+  background: transparent; /* Use a transparent background */
+
+  font-family: Ubuntu;
+}
+
+.myline {
+  width: 500px;
+  padding: 0px !important;
+  margin:  0px !important;
+  height: 2px; /* Set the height to control thickness */
+  background-color: #000; /* Set the background color as needed */
+}
+
+.myformFields {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+.form_row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+
+  border: none; /* Remove all borders */
+  border-bottom: 2px solid #000 !important; /* Add a bottom border */
+  outline: none; /* Remove the focus outline */
+  background: transparent; /* Use a transparent background */
+  width: 100%; /* Set the width as needed */
+  box-sizing: border-box;
+  color: #000;
+  font-family: sans-serif;
+  
+}
+
+
+.my_form_button{
+    border-radius: 0.56vw;
+border: 1px solid #01EAD0;
+background: linear-gradient(180deg, #00FEDF 0%, #065863 100%);
+box-shadow: 0px 2px 4px 0px rgba(255, 255, 255, 0.10);
+width: 12vw;
+height: 2.8vw;
+flex-shrink: 0;
+outline: none !important;
+cursor: pointer;
+box-shadow: 0px 0.2vw #01ead0;
+
+}
+
+.my_form_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    outline: none !important;
+
+}
+
+.my_form_button{
+
+    color: #FFF !important;
+font-family: sans-serif;
+font-size: 0.8vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.7px;
+}
+
+
+@media only screen and (max-width: 991px){
+    
+    .buyer_form_content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction:column !important;
+      height: 100%;
+      gap: 6vw;
+    }
+
+    .main_buter_pic {
+        background-image: url(./../../Assets/bighouse.png);
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 5vw;
+      }
+
+      .my_form {
+        width: 36vw;
+        height: 36vw;
+        border-radius: 1.5vw;
+        background: #f6f6f6;
+        padding: 2vw;
+        margin-left: -8vw;
+    }
+}
+
+
+@media only screen and (max-width: 500px){
+    .my_form {
+        width: 45vw;
+        height: 45vw;
+        border-radius: 1.5vw;
+        background: #f6f6f6;
+        padding: 2vw;
+        margin-left: -8vw;
+    }
+
+    .my_form_labels {
+        color: #2c2c2c;
+        font-family: Ubuntu;
+        font-size: 2vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 5.5vw;
+      }
+
+      .my_form_button{
+        border-radius: 0.7vw;
+    border: 1px solid #01EAD0;
+    background: linear-gradient(180deg, #00FEDF 0%, #065863 100%);
+    box-shadow: 0px 2px 4px 0px rgba(255, 255, 255, 0.10);
+    width: 20vw;
+    height:4vw;
+    flex-shrink: 0;
+    }
+    
+    .my_form_button{
+    
+        color: #FFF !important;
+    font-family: sans-serif;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    }
+
+
+}

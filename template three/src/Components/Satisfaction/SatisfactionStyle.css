@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.satisfy_main {
+  display: flex;
+  flex-direction: row;
+  margin: 0vw 14vw;
+}
+
+.satisfy_left {
+  padding-top: 4vw;
+  width: 40%;
+  margin-bottom: 2vw !important;
+}
+
+.satisfy_right {
+  width: 60%;
+  height: 33vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.handshake_left {
+  width: 30%;
+  height: auto;
+}
+
+.handshake_right {
+  width: 72%;
+  height: auto;
+  background-color: #062b63;
+  display: flex;
+  flex-direction: row;
+}
+
+.icons_and_text {
+  display: flex !important;
+  flex-direction: row !important;
+  padding: 1.4vw 5px !important;
+  gap: 1vw;
+}
+
+.three_icons {
+  width: 5.5vw;
+  height: 5.5vw;
+  aspect-ratio: 1/1;
+}
+
+.icons_headings {
+  color: #469efc;
+  text-align: left;
+  font-family: "Poppins";
+  font-size: 0.9vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+
+.below_icons_headings {
+  color: #5f605d;
+  font-family: Poppins;
+  font-size: 0.8vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.selling_home_text {
+  width: 45%;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 1.8vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.7vw; /* 117.241% */
+  margin-left: 2vw;
+  margin-top: 1vw;
+  padding-right: 1vw;
+}
+
+.handshaking_img_div {
+  width: 55%;
+  position: relative;
+
+  right: 41%;
+  padding-top: 5%;
+}
+
+.handshaking_img {
+  width: 32vw;
+}
+
+@media only screen and (max-width: 767px){
+    .satisfy_main {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        align-items: center;
+        justify-content: center;
+      }
+
+
+      .handshaking_img_div {
+        width: 55%;
+        position: relative;
+        right: 33%;
+        padding-top: 5%;
+      }    
+
+
+      .selling_home_text {
+        width: 45%;
+        color: #fff;
+        font-family: "Poppins";
+        font-size: 3.2vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 4vw; /* 117.241% */
+        margin-left: 0 !important;
+        margin-top: 2vw !important;
+        padding-right: 1vw;
+      }
+
+      .icons_headings{
+        font-size: 1.5vw;
+      }
+
+
+.below_icons_headings{
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+}
+
+.three_icons {
+    width: 8.5vw;
+    height: 8.5vw;
+    aspect-ratio: 1/1;
+  }
+
+  .icons_and_text {
+    padding: 1vw 1vw !important;
+    gap: 1vw;
+  }
+
+}

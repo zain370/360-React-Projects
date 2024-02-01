@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.uppre_darkblue {
+  width: 100%;
+  background-color: #062b63;
+  height: auto;
+  padding: 4vw 0vw;
+}
+
+.lightblue_card {
+  width: 46vw !important;
+  height: 23vw !important;
+  border-radius: 2vw !important;
+  border: 1px solid #469efc !important;
+  background: #469efc !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+
+
+}
+
+.schedulee_text {
+  color: #062b63;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 58px */
+  letter-spacing: 1.16px;
+  padding-top: 20px;
+}
+
+.below_schedule_text {
+  color: #062b63;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.68px;
+}
+
+.offer_btn {
+  width: 14vw !important;
+  height: 3.7vw !important;
+  border-radius: 0.5vw;
+  background: linear-gradient(180deg, #218cff 0%, #053568 90.1%);
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 0.9vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8vw
+}
+
+.call_classs {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.68px;
+}
+
+.contact_classs {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.68px;
+  
+}
+
+.conatct_text {
+  padding-top: 1vw;
+  /* margin-top: -200px !important; */
+}
+
+.blackmann {
+  width: 28vw;
+  height: 25vw;
+aspect-ratio: 1/1;
+}
+
+@media only screen and (max-width: 767px){
+
+.main_darkblue_div {
+
+text-align: center !important
+}
+
+.lightblue_card{
+    margin-left: 27%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.schedulee_text{
+font-size: 2.5vw !important;
+
+}
+
+.below_schedule_text{
+    padding-top: -10px !important;
+    margin-top: 0px  !important;
+}
+
+
+}
+
+
+@media only screen and (max-width: 440px){
+    .schedulee_text {
+        font-size: 8px !important;
+    }
+
+    .below_schedule_text{
+        font-size: 5px !important;
+    
+    }
+
+    .conatct_text{
+        margin-top: -5px !important;
+    }
+}

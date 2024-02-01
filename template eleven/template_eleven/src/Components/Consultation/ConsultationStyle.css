@@ -1,0 +1,76 @@
+.main_consultation_div{
+    width: 100%;
+    height:auto;
+    background: #171717; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4vw 0vw;
+}
+
+.consultation_content{
+background-color: #252525;
+width: 81vw;
+height:28vw;
+border-radius: 1.5vw !important;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2vw !important;
+justify-content: space-between;
+}
+
+.meet_right_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2vw;
+}
+
+.consult_text{
+    color: #FFF;
+font-family: Lato;
+font-size: 3vw;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 58px */
+letter-spacing: 1.16px;
+}
+
+.below_consult_text{
+    color: #FFF;
+font-family: "Lato";
+font-size: 1.7vw;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.68px;
+}
+
+.bold_num{
+    font-weight: 700 !important;
+}
+
+.consult_btn{
+    border-radius: 35px;
+border: 1px solid #72C000;
+background: #ABFF30;
+width: 13vw;
+height: 3vw;
+box-shadow: 0px 0.2vw #72C000 !important;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #000;
+font-family: Poppins;
+font-size: 0.9vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.7px;
+}
+
+.meet_img{
+    width: 35vw;
+}

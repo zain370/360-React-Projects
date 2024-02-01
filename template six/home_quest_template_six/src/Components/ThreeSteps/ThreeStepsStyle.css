@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.satisfy_main {
+  display: flex;
+  flex-direction: row;
+  margin: 0vw 14vw;
+  gap: 10vw;
+}
+
+.satisfy_left {
+  padding-top: 4vw;
+
+  margin-bottom: 2vw !important;
+}
+
+.satisfy_right {
+  display: flex;
+  flex-direction: row;
+}
+
+.steps_heading {
+  color: #000;
+  font-family: DM Serif Display;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 1vw;
+}
+
+.fourth_img {
+  margin-top: 3vw;
+  width: 30vw;
+  height: 30vw;
+}
+
+.icons_and_text {
+  display: flex !important;
+  flex-direction: row !important;
+  padding: 1.4vw 5px !important;
+  gap: 1vw;
+}
+
+.three_icons {
+  width: 5.5vw;
+  height: 5.5vw;
+  aspect-ratio: 1/1;
+}
+
+.icons_headings {
+  color: #194668;
+  font-family: sans-serif;
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2vw;
+  letter-spacing: 0.9px;
+}
+
+.below_icons_headings {
+  color: #5f605d;
+  font-family: sans-serif;
+  font-size: 0.8vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.7px;
+}
+
+.selling_home_text {
+  width: 45%;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 1.8vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.7vw; /* 117.241% */
+  margin-left: 2vw;
+  margin-top: 1vw;
+  padding-right: 1vw;
+}
+
+@media only screen and (max-width: 767px) {
+  .satisfy_main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw !important;
+  }
+
+  .icons_headings {
+    font-size: 1.5vw;
+  }
+
+  .below_icons_headings {
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+  }
+
+  .three_icons {
+    width: 8.5vw;
+    height: 8.5vw;
+    aspect-ratio: 1/1;
+  }
+
+  .icons_and_text {
+    padding: 1vw 1vw !important;
+    gap: 1vw;
+  }
+
+  .steps_heading {
+    color: #000;
+    font-family: DM Serif Display;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 1vw;
+    margin-left: 1vw;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .icons_headings {
+    font-size: 1.7vw;
+  }
+
+  .below_icons_headings {
+    font-size: 1.5vw;
+    line-height: 1.7vw;
+  }
+
+  .three_icons {
+    width: 8vw;
+    height: 8vw;
+    aspect-ratio: 1/1;
+  }
+
+  .fourth_img {
+    margin-top: 3vw;
+    width: 40vw;
+    height: 40vw;
+  }
+}

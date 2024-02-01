@@ -1,0 +1,152 @@
+.main_selling {
+  width: 100%;
+  height: auto;
+}
+
+.selling_text {
+  margin-top: 4vw;
+  margin-bottom: 3vw;
+  text-align: center;
+  color: #122145;
+  font-family: Ubuntu;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px; /* 117.241% */
+}
+
+.selling_content {
+  padding: 0px !important;
+  margin: 0px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.window_img {
+  width: 34vw;
+}
+
+.right_selling_blue {
+  width: 35vw;
+  height: 34.8vw;
+  border-radius: 0px 10px 10px 0px;
+  background: #122145;
+  gap: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4vw 2vw;
+}
+
+.circles {
+  width: 6vw;
+}
+.selling_row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1vw;
+}
+
+.circle_right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.circle_heading {
+  color: #00f5d8;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+
+.below_circle_heading {
+  color: #eaeaea;
+  width: 24vw;
+  font-family: Ubuntu;
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media only screen and (max-width: 768px) {
+  .selling_content {
+    padding: 0px !important;
+    margin: 0px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+  }
+
+  .window_img {
+    width: 55vw;
+  }
+  .selling_text {
+    font-size: 4vw !important;
+  }
+  .right_selling_blue {
+    width: 55vw;
+    height: 44vw;
+    border-radius: 0px;
+    background: #122145;
+    gap: 3vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4vw 2vw;
+  }
+
+  .circles {
+    width: 8vw;
+  }
+  .selling_row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 3vw;
+
+    justify-content: flex-start;
+    gap: 1vw;
+  }
+
+  .circle_heading {
+    color: #00f5d8;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 1.8vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.2px;
+  }
+
+  .below_circle_heading {
+    color: #eaeaea;
+    width: 32vw;
+    font-family: Ubuntu;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .circle_right {
+    gap: 1vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.house_image {
+  width: 40vw;
+  height: 28vw;
+  /* width: 798px;
+  height: 546px; */
+  aspect-ratio: 1/1;
+  border-radius: 28px;
+  margin-left: 7vw;
+}
+
+.div_behind_house {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding:0 4%;
+  margin: 4% auto;
+
+  
+}
+
+.steps_text {
+  color: #062b63;
+  font-family: "Poppins";
+  /* font-size: 58px; */
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  padding-top: 2.5vw;
+}
+
+.blue_circles {
+  width: 30vw;
+  text-align: center;
+  justify-content: center;
+  margin-top: -10px !important;
+}
+
+.div_behind_div {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  /* margin-left: 5%; */
+  /* background-color: red; */
+}
+
+.circle_text {
+  width: 35vw;
+  /* text-align: center; */
+}
+
+.heading_below_circles {
+  font-family: "Poppins";
+  font-size: 0.8vw;
+  font-weight: 600;
+  line-height: 1.2vw;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+.text_below_cirlces {
+  font-family: "Poppins";
+  font-size: 0.8vw;
+  font-weight: 300;
+  line-height: 1.1vw;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+
+.div_behind_house{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.house_image {
+  width: 60vw;
+  height: 42vw;
+  /* width: 798px;
+  height: 546px; */
+  aspect-ratio: 1/1;
+  border-radius:4vw;
+  margin-left: 0px !important;
+}
+
+.steps_text {
+
+  font-size: 6vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  padding-top: 0vw !important;
+}
+
+.blue_circles {
+  width: 60vw;
+}
+
+.circle_text {
+  width: 70vw;
+  /* text-align: center; */
+}
+
+.heading_below_circles {
+  font-family: "Poppins";
+  font-size: 2vw;
+  font-weight: 600;
+  line-height: 2vw;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+.text_below_cirlces {
+  font-family: "Poppins";
+  font-size: 1.9vw;
+  font-weight: 300;
+  line-height: 2.2vw;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+
+}
+
+
+@media only screen and (max-width: 767px){
+
+  .div_behind_house {
+    gap: 9vw;
+  }
+} 

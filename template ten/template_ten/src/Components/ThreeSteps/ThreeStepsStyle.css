@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap");
+
+.main_steps_div {
+  width: 100%;
+  height: auto;
+  margin-bottom: 4vw;
+}
+
+.steps_heading {
+  text-align: center;
+  margin: 3vw 0vw !important;
+  color: #122145;
+  font-family: "Ubuntu";
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.steps_content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content:center !important;
+  gap: 3vw;
+}
+
+.step_card_img1 {
+  width: 27vw;
+}
+
+
+.step_card_img2 {
+  width: 24vw;
+}
+
+
+.step_card_img3 {
+  width: 21vw !important;
+}
+
+
+.steps_three_headings {
+  color: #0e0e10;
+
+  font-family: Ubuntu;
+  font-size: 1.4vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.3px;
+}
+
+.below_step_headings {
+  width: 23vw;
+  color: #5f605d;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.9px;
+}
+
+@media only screen and (max-width: 768px) {
+  .steps_heading {
+    text-align: center;
+    margin: 3vw 0vw !important;
+    color: #122145;
+    font-family: "Ubuntu";
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .steps_content {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6vw;
+  }
+
+  .step_card_img1 {
+    width: 50vw;
+  }
+  
+  
+  .step_card_img2 {
+    width: 44vw;
+  }
+  
+  
+  .step_card_img3 {
+    width: 40vw !important;
+  }
+  
+  
+
+  .steps_three_headings {
+    color: #0e0e10;
+
+    font-family: Ubuntu;
+    font-size: 3.4vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.3px;
+  }
+
+  .below_step_headings {
+    width: 60vw !important;
+    color: #5f605d;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+  }
+}

@@ -1,0 +1,69 @@
+.myDiv{
+    width: 100% !important;
+    height: 37% !important;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-image: url(./../../Assets/house.png);
+}
+
+@media only screen and (max-width: 2900px) {
+    .myDiv{
+        width: 100% !important;
+        height: 52vw !important;
+        background-size: cover;
+        background-repeat: no-repeat !important;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .myDiv{
+        width: 100% !important;
+        height: 700px !important;
+        background-size: cover;
+        background-repeat: no-repeat !important;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .myDiv{
+        width: 100% !important;
+        height: 750px !important;
+        background-size: cover;
+        background-repeat: no-repeat !important;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .myDiv{
+        width: 100% !important;
+        height: 650px !important;
+        background-size: cover;
+        background-repeat: no-repeat !important;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 380px) {
+    .myDiv{
+        width: 100% !important;
+        height: 570px !important;
+        background-size: cover;
+        background-repeat: no-repeat !important;
+    }
+
+}
+
+@media only screen and (max-width: 330px) {
+    .myDiv{
+        width: 100% !important;
+        height: 550px !important;
+        background-size: cover;
+        background-repeat: no-repeat !important;
+    }
+
+}

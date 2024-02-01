@@ -1,0 +1,100 @@
+.main_process_div {
+  width: 100%;
+  height: auto;
+  background: #343c82;
+  padding-top: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5vw;
+}
+
+.process_heading {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 2.3vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.below_process_heading {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.3vw;
+  font-style: normal;
+  text-align: center !important;
+  font-weight: 400;
+  line-height: normal;
+  width: 70vw !important;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.blue {
+  color: #52acff;
+}
+
+.buy_heading {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.steps_flex_row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content:center;
+  padding-top: 3vw;
+  
+}
+
+.steps_col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  width: 21vw;
+}
+
+.below_num_pic {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 2.2vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.num_pic {
+  width: 4vw;
+}
+
+.silver_pics {
+  width: 11vw;
+}
+.below_silver {
+
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 1vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.grey_arrow{
+    width: 8vw;
+}

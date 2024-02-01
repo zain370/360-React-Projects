@@ -1,0 +1,154 @@
+.main_testimonial {
+  width: 100%;
+  background: #122145;
+  height: 50vw;
+}
+
+.testimonial_heading {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.16px;
+}
+
+.testimonial_heading {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.16px;
+  text-align: center;
+  margin-top: 2vw;
+  padding-top: 2vw;
+  margin-bottom: 5vw;
+}
+
+.testimonial-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.main_div_client_review {
+  width: 100%;
+  height: 50vw;
+  background-color: #122145;
+}
+.below_main_div {
+  margin-left: 5%;
+  width: 90%;
+}
+.backg_black {
+  width: 100% !important;
+  height: 21vw;
+  background-repeat: no-repeat;
+  background-image: url(./../../Assets/review.png);
+  background-size: 85% !important;
+  margin-left: 10%;
+}
+
+
+.slick-prev{
+  position: absolute !important;
+  top: 120% !important;
+  left: 40% !important;
+}
+.slick-next{
+  position: absolute !important;
+  top: 120% !important;
+  left: 54% !important;
+}
+.slick-prev:before {
+  content: none !important;
+}
+.slick-next:before {
+  content: none !important;
+}
+.slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before {
+  opacity: 0 !important;
+}
+
+
+.slick-prev:before {
+ 
+
+  opacity: 10 !important;
+  /* content: url("C:\Users\daniyal\Desktop\React Project\template ten\template_ten\src\Assets\rbtn (3).png") !important; */
+  
+}
+
+.slick-next:before {
+  opacity: 10 !important;
+  /* content: url("C:\Users\daniyal\Desktop\React Project\template ten\template_ten\src\Assets\rbtn (1).png") !important; */
+}
+
+
+
+
+
+
+
+
+
+.slick-prev:before {
+ 
+
+  opacity: 10 !important;
+  content: url("C:\Users\daniyal\Desktop\React Project\template ten\template_ten\src\Assets\rbtn (3).png") !important;
+
+
+
+}
+
+.slick-next:before {
+  opacity: 10 !important;
+  content: url("C:\Users\daniyal\Desktop\React Project\template ten\template_ten\src\Assets\rbtn (1).png") !important;
+
+  opacity: 10 !important;
+
+
+
+}
+
+
+.slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before {
+  opacity: 10 !important;
+
+
+}
+
+
+
+@media only screen and (max-width: 990px){
+  .slick-next:before {
+    opacity: 10 !important;
+    content: "" !important;
+    background-image: url("C:\Users\daniyal\Desktop\React Project\template ten\template_ten\src\Assets\rbtn (1).png");
+    background-size: 6vw; /* Adjust the size as needed */
+    background-repeat: no-repeat;
+    width: 50px; /* Set the width of the pseudo-element */
+    height: 50px; /* Set the height of the pseudo-element */
+    display: inline-block; /* Ensures the dimensions are applied */
+  }
+
+
+
+  .slick-prev:before  {
+    opacity: 10 !important;
+    content: "" !important;
+    background-image: url("C:\Users\daniyal\Desktop\React Project\template ten\template_ten\src\Assets\rbtn (3).png");
+    background-size: 6vw; /* Adjust the size as needed */
+    background-repeat: no-repeat;
+    width: 50px; /* Set the width of the pseudo-element */
+    height: 50px; /* Set the height of the pseudo-element */
+    display: inline-block; /* Ensures the dimensions are applied */
+
+  }
+
+}

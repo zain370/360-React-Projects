@@ -1,0 +1,173 @@
+.main_selling_div {
+  width: 100%;
+  height: auto;
+  padding: 3vw 0px !important;
+  margin: 0px !important;
+  display: flex;
+  flex-direction: row;
+  background: #171717;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8vw;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+.selling_img {
+  width: 50vw;
+}
+
+.selling_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8vw;
+}
+
+.selling_heading {
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center !important;
+}
+
+.selling_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2vw;
+}
+
+.selling_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1vw;
+}
+
+.selling_textual {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 21vw;
+}
+
+.selling_three_headings {
+  color: #abff30;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.1vw;
+}
+
+.below_three_headings {
+  color: #eaeaea;
+  font-family: Lato;
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.selling_icon {
+  width: 6vw;
+}
+
+@media only screen and (max-width: 500px) {
+  .main_selling_div {
+    width: 100%;
+    height: auto;
+    padding: 3vw 0px !important;
+    margin: 0px !important;
+    display: flex;
+    flex-direction: column !important;
+    background: #171717;
+    justify-content: center;
+    align-items: center;
+    gap: 8vw;
+  }
+
+
+
+  .selling_img {
+    width: 60vw;
+  }
+  
+  .selling_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8vw;
+  }
+  
+  .selling_heading {
+    color: #fff;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 5vw !important;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center !important;
+    width: 100% !important;
+
+  }
+  
+  .selling_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3vw;
+    
+  }
+  
+  .selling_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4vw;
+  }
+  
+  .selling_textual {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50vw !important;
+  }
+  
+  .selling_three_headings {
+    color: #abff30;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 2.8vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.1vw;
+  }
+  
+  .below_three_headings {
+    color: #eaeaea;
+    font-family: Lato;
+    font-size: 2.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .selling_icon {
+    width: 14vw;
+  }
+}

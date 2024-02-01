@@ -1,0 +1,920 @@
+.main_div_navbar {
+  width: 83%;
+  margin-left: 10%;
+}
+
+/* .my_top_blue_btn{
+  box-shadow: 0px 10px red;
+} */
+
+.button_navbar_end {
+  border-radius: 10px;
+  border: 0.5px solid #469efc;
+  background: linear-gradient(180deg, #469efc 0%, #062b63 100%);
+  width: 316px;
+  height: 65px;
+  cursor: pointer !important;
+  
+  
+}
+
+.call_us_for_free {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  text-align: center;
+}
+
+.phone_number_navbar {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0px !important;
+  letter-spacing: 0.48px;
+  text-align: center;
+}
+
+.phone_logo_navbar {
+  width: 30px;
+  height: 30px;
+  margin-top: 45%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.home_offer_text {
+  color: #21201f;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-align: center;
+}
+
+.direct_text {
+  color: #469efc;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.7px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.navbar_text_links {
+  margin-left: 7% !important;
+}
+
+.why_review_faq_text {
+  color: #5f605d;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  padding-right: 40px !important;
+}
+.why_review_faq_text:hover {
+  color: #062b63;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  padding-right: 40px !important;
+}
+.topic_name {
+  margin-left: -40px !important;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 2760px) {
+  .main_div_navbar {
+    width: 83% !important;
+    margin-left: 10% !important;
+  }
+
+  .button_navbar_end {
+    border-radius: 10px;
+    border: 0.5px solid #469efc;
+    background: linear-gradient(180deg, #469efc 0%, #062b63 100%);
+    width: 15vw;
+    height: 3vw;
+    cursor: pointer;
+    box-shadow: 0px 5px #469EFC;
+  }
+
+  .call_us_for_free {
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-align: center;
+    
+  }
+
+  .phone_number_navbar {
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 0.8v9;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0px !important;
+    letter-spacing: 0.48px;
+    text-align: center;
+  }
+
+  .phone_logo_navbar {
+    width: 30px;
+    height: 30px;
+    margin-top: 45%;
+    margin-left: 0.8vw;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+  .home_offer_text {
+    color: #21201f;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-align: center;
+  }
+
+  .direct_text {
+    color: #469efc;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    text-align: center;
+    margin-top: -20px;
+  }
+
+  .navbar_text_links {
+    margin-left: 20% !important;
+  }
+
+  .why_review_faq_text {
+    color: #5f605d;
+    font-family: Poppins;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    padding-right: 40px !important;
+  }
+  .why_review_faq_text:hover {
+    color: #062b63;
+    font-family: "Poppins";
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    padding-right: 40px !important;
+  }
+  .topic_name {
+    margin-left: -40px !important;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1900px) {
+    .main_div_navbar {
+      width: 83% !important;
+      margin-left: 10% !important;
+      
+    }
+  
+    .button_navbar_end {
+      border-radius: 10px;
+      border: 0.5px solid #469efc;
+      background: linear-gradient(180deg, #469efc 0%, #062b63 100%);
+      width: 316px;
+      height: 65px;
+      cursor: pointer;
+    }
+  
+    .call_us_for_free {
+      color: #fff;
+      font-family: "Poppins";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.36px;
+      text-align: center;
+    }
+  
+    .phone_number_navbar {
+      color: #fff;
+      font-family: "Poppins";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 0px !important;
+      letter-spacing: 0.48px;
+      text-align: center;
+    }
+  
+    .phone_logo_navbar {
+      width: 30px;
+      height: 30px;
+      margin-top: 45%;
+    }
+  
+    .home_offer_text {
+      color: #21201f;
+      font-family: "Poppins";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.48px;
+      text-align: center;
+    }
+  
+    .direct_text {
+      color: #469efc;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 2.7px;
+      text-align: center;
+      margin-top: -20px;
+    }
+  
+    .navbar_text_links {
+      margin-left: 10% !important;
+      
+    }
+  
+    .why_review_faq_text {
+      color: #5f605d;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.36px;
+      padding-right: 40px !important;
+    }
+    .why_review_faq_text:hover {
+      color: #062b63;
+      font-family: "Poppins";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.36px;
+      padding-right: 40px !important;
+    }
+    .topic_name {
+      margin-left: -60px !important;
+      margin-right: 20px;      
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+  .company_logo_image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .main_div_navbar {
+    width: 87% !important;
+    margin-left: 8% !important;
+  }
+
+  .button_navbar_end {
+    border-radius: 10px;
+    border: 0.5px solid #469efc;
+    background: linear-gradient(180deg, #469efc 0%, #062b63 100%);
+    width: 240px;
+    height: 60px;
+    cursor: pointer;
+  }
+
+  .call_us_for_free {
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-align: center;
+  }
+
+  .phone_number_navbar {
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0px !important;
+    letter-spacing: 0.48px;
+    text-align: center;
+  }
+
+  .phone_logo_navbar {
+    width: 25px;
+    height: 25px;
+    margin-top: 95%;
+    margin-left: 20% !important;
+  }
+
+  .home_offer_text {
+    color: #21201f;
+    font-family: "Poppins";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-align: center;
+  }
+
+  .direct_text {
+    color: #469efc;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    text-align: center;
+    margin-top: -20px;
+  }
+
+  .navbar_text_links {
+    margin-left: 10% !important;
+  }
+
+  .why_review_faq_text {
+    color: #5f605d;
+    font-family: Poppins;
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    padding-right: 20px !important;
+  }
+  .why_review_faq_text:hover {
+    color: #062b63;
+    font-family: "Poppins";
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    padding-right: 20px !important;
+  }
+  .topic_name {
+    margin-left: -80px !important;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .company_logo_image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .main_div_navbar {
+    width: 83%;
+    margin-left: 10%;
+  }
+
+  .button_navbar_end {
+    border-radius: 10px;
+    border: 0.5px solid #469efc;
+    background: linear-gradient(180deg, #469efc 0%, #062b63 100%);
+    width: 240px;
+    height: 60px;
+    cursor: pointer;
+  }
+
+  .call_us_for_free {
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-align: center;
+  }
+
+  .phone_number_navbar {
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0px !important;
+    letter-spacing: 0.48px;
+    text-align: center;
+  }
+
+  .phone_logo_navbar {
+    width: 25px;
+    height: 25px;
+    margin-top: 95%;
+    margin-left: 20% !important;
+  }
+
+  .home_offer_text {
+    color: #21201f;
+    font-family: "Poppins";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-align: center;
+  }
+
+  .direct_text {
+    color: #469efc;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    text-align: center;
+    margin-top: -20px;
+  }
+
+  .navbar_text_links {
+    margin-left: 0% !important;
+  }
+
+  .why_review_faq_text {
+    color: #5f605d;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    padding-right: 20px !important;
+  }
+  .why_review_faq_text:hover {
+    color: #062b63;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    padding-right: 20px !important;
+  }
+
+  .topic_name {
+    margin-left: -80px !important;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .main_div_navbar {
+    width: 94% !important;
+    margin-left: 2% !important;
+  }
+  .company_logo_image {
+    width: 90px;
+    height: 90px;
+  }
+
+  .topic_name {
+    margin-left: -80px !important;
+    margin-right: 20px;
+  }
+
+  .home_offer_text {
+    color: #21201f;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-align: center;
+  }
+
+  .direct_text {
+    color: #469efc;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    text-align: center;
+    margin-top: -20px;
+  }
+
+  .navbar_text_links {
+    margin-left: 10% !important;
+  }
+
+  .why_review_faq_text {
+    color: #5f605d;
+    font-family: Poppins;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    padding-right: 20px !important;
+  }
+  .why_review_faq_text:hover {
+    color: #062b63;
+    font-family: "Poppins";
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    padding-right: 20px !important;
+  }
+
+  .button_navbar_end {
+    border-radius: 10px;
+    border: 0.5px solid #469efc;
+    background: linear-gradient(180deg, #469efc 0%, #062b63 100%);
+    width: 210px;
+    height: 55px;
+    cursor: pointer;
+  }
+
+  .call_us_for_free {
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-align: center;
+  }
+
+  .phone_number_navbar {
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0px !important;
+    letter-spacing: 0.48px;
+    text-align: center;
+  }
+
+  .phone_logo_navbar {
+    width: 20px;
+    height: 20px;
+    margin-top: 100%;
+    margin-left: 45% !important;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .main_div_navbar {
+    width: 94% !important;
+    margin-left: 2% !important;
+  }
+  .company_logo_image {
+    width: 90px;
+    height: 90px;
+  }
+
+  .topic_name {
+    margin-left: -80px !important;
+    margin-right: 20px;
+  }
+
+  .home_offer_text {
+    color: #21201f;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-align: center;
+  }
+
+  .direct_text {
+    color: #469efc;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    text-align: center;
+    margin-top: -20px;
+  }
+
+  .navbar_text_links {
+    margin-left: 0% !important;
+  }
+
+  .why_review_faq_text {
+    color: #5f605d;
+    font-family: Poppins;
+    font-size: 13px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    padding-right: 20px !important;
+  }
+  .why_review_faq_text:hover {
+    color: #062b63;
+    font-family: "Poppins";
+    font-size: 13px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    padding-right: 20px !important;
+  }
+
+  .button_navbar_end {
+    border-radius: 10px;
+    border: 0.5px solid #469efc;
+    background: linear-gradient(180deg, #469efc 0%, #062b63 100%);
+    width: 210px;
+    height: 55px;
+    cursor: pointer;
+  }
+
+  .call_us_for_free {
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-align: center;
+  }
+
+  .phone_number_navbar {
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0px !important;
+    letter-spacing: 0.48px;
+    text-align: center;
+  }
+
+  .phone_logo_navbar {
+    width: 20px;
+    height: 20px;
+    margin-top: 100%;
+    margin-left: 45% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .main_div_navbar {
+        width: 94% !important;
+        margin-left: 2% !important;
+      }
+      .company_logo_image {
+        width: 90px;
+        height: 90px;
+      }
+    
+      .topic_name {
+        margin-left: -30px !important;
+        margin-right: 20px;
+      }
+    
+      .home_offer_text {
+        color: #21201f;
+        font-family: "Poppins";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.48px;
+        text-align: center;
+      }
+    
+      .direct_text {
+        color: #469efc;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 2.7px;
+        text-align: center;
+        margin-top: -20px;
+      }
+    
+      .navbar_text_links {
+        margin-left: 0% !important;
+      }
+    
+      .why_review_faq_text {
+        color: #5f605d;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.36px;
+        padding-right: 20px !important;
+      }
+      .why_review_faq_text:hover {
+        color: #062b63;
+        font-family: "Poppins";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.36px;
+        padding-right: 40px !important;
+      }
+    
+      .button_navbar_end {
+        border-radius: 10px;
+        border: 0.5px solid #469efc;
+        background: linear-gradient(180deg, #469efc 0%, #062b63 100%);
+        width: 210px;
+        height: 55px;
+        cursor: pointer;
+      }
+    
+      .call_us_for_free {
+        color: #fff;
+        font-family: "Poppins";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.36px;
+        text-align: center;
+      }
+    
+      .phone_number_navbar {
+        color: #fff;
+        font-family: "Poppins";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 0px !important;
+        letter-spacing: 0.48px;
+        text-align: center;
+      }
+    
+      .phone_logo_navbar {
+        width: 20px;
+        height: 20px;
+        margin-top: 100%;
+        margin-left: 45% !important;
+      }
+}
+
+@media only screen and (max-width: 446px) {
+
+    .main_div_navbar {
+        width: 94% !important;
+        margin-left: 2% !important;
+      }
+      .company_logo_image {
+        width: 90px;
+        height: 90px;
+      }
+    
+      .topic_name {
+        margin-left: -18% !important;
+        /* margin-right: 20px; */
+      }
+    
+      .home_offer_text {
+        color: #21201f;
+        font-family: "Poppins";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.48px;
+        text-align: center;
+      }
+    
+      .direct_text {
+        color: #469efc;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 2.7px;
+        text-align: center;
+        margin-top: -20px;
+      }
+    
+      .navbar_text_links {
+        margin-left: 0% !important;
+      }
+    
+      .why_review_faq_text {
+        color: #5f605d;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.36px;
+        padding-right: 20px !important;
+      }
+      .why_review_faq_text:hover {
+        color: #062b63;
+        font-family: "Poppins";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.36px;
+        padding-right: 40px !important;
+      }
+    
+      .button_navbar_end {
+        border-radius: 7px;
+        border: 0.5px solid #469efc;
+        background: linear-gradient(180deg, #469efc 0%, #062b63 100%);
+        width: 180px;
+        height: 45px;
+        cursor: pointer;
+      }
+    
+      .call_us_for_free {
+        color: #fff;
+        font-family: "Poppins";
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.36px;
+        text-align: center;
+      }
+    
+      .phone_number_navbar {
+        color: #fff;
+        font-family: "Poppins";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 0px !important;
+        letter-spacing: 0.48px;
+        text-align: center;
+      }
+    
+      .phone_logo_navbar {
+        width: 20px;
+        height: 20px;
+        margin-top: 100%;
+        margin-left: 45% !important;
+      }
+}
+
+
+@media only screen and (max-width: 991px){
+  .button_navbar_end {
+   margin-bottom: 2vw !important;
+  }
+}

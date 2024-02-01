@@ -1,0 +1,152 @@
+.main_selling_div{
+    padding-top: 3vw;
+ width: 100%;
+ height: auto !important;
+}
+
+.selling_heading{
+    color: #2C2C2C;
+text-align: center;
+font-family: Inter;
+font-size: 2.1vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700&display=swap");
+
+
+.below_selling{
+    color: #2C2C2C;
+text-align: center;
+font-family: "Inter";
+font-size: 1.35vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 1vw;
+padding-bottom: 2vw;
+}
+
+.sell_row_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bullets_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+.bullet_heading{
+    color: #2C2C2C;
+text-align: center;
+font-family: Inter;
+font-size: 1.35vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.bullet_row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+
+}
+
+.bullet_text{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 1.25vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.blue_bullet{
+    width: 2vw;
+}
+
+.house_img{
+    width: 20vw;
+}
+
+
+@media only screen and (min-width: 1100px){
+    .bullets_div{
+     gap: 1vw;
+    
+    }
+}
+
+
+@media only screen and (max-width: 576px){
+
+    .sell_row_flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+.bullet_text{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 1.9vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.blue_bullet{
+    width: 3vw;
+}
+
+
+.house_img{
+    width: 50vw;
+    padding-top: 3vw;
+}
+.selling_heading{
+    color: #2C2C2C;
+text-align: center;
+font-family: Inter;
+font-size: 3.1vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 3vw 8vw;
+}
+
+.below_selling{
+    color: #2C2C2C;
+text-align: center;
+font-family: "Inter";
+font-size: 1.9vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 0vw 10vw 2vw 10vw;
+}
+
+.bullet_heading{
+    color: #2C2C2C;
+text-align: center;
+font-family: Inter;
+font-size: 2.2vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 2vw;
+}
+}

@@ -1,0 +1,33 @@
+.main_convenience_div{
+    background-color: #122145;
+    width: 100%;
+    height: 26vw;
+}
+
+.convenience_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+        position: relative;
+}
+
+.consult_textuall{
+    margin-left: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vw !important;
+}
+
+.dual_img{
+    width: 25vw;
+    
+}
+
+.dual_img_div{
+    position: absolute;
+    left: 7vw !important;
+    bottom: 0px !important;
+}

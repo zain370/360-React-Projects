@@ -1,0 +1,183 @@
+.main_testimonial_divv {
+  width: 100%;
+  height:auto;
+
+}
+
+.feedback_strip {
+  width: 100%;
+  background: #343c82;
+  height: 5vw;
+
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 2.5vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_testimonial_divv {
+  position: relative;
+  margin-bottom: 8vw !important;
+}
+
+.random_left_img {
+  width: 45vw;
+
+  /* z-index: 1; */
+}
+.random_left_div {
+  position: absolute;
+  top: -5vw;
+}
+.slick-dots li button:before {
+  background-image: url(./../../Assets/lightb.png);
+  box-shadow: none;
+  text-shadow: none;
+  color: transparent !important;
+  background-size: 0.8vw 0.8vw;
+  background-repeat: no-repeat;
+}
+
+.slick-slider {
+  width: 98% !important;
+}
+.ttt {
+  margin-left: 35vw;
+}
+
+.slick-dots {
+  margin: 2vw 0px !important;
+  width: 100% !important;
+}
+
+.testimonial_heading {
+  color: #000;
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.testimonial_img {
+  width: 30vw;
+}
+
+.dots_img_div {
+  margin-top: 1vw;
+}
+
+.dots_img {
+  width: 8vw;
+}
+
+@media only screen and (max-width: 991px) {
+  .testiminoal_img_div {
+    margin-top: 0.5vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .slick-dots {
+    margin-bottom: 3vw !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .testimonial_heading {
+    font-size: 6vw;
+  }
+
+  .testimonial_img {
+    width: 60vw !important;
+  }
+
+  .ttt {
+    margin-left: 22vw;
+  }
+}
+
+.myslider {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 55%;
+  height: 25vw;
+  margin-left: 24%;
+}
+
+.review_div {
+  width: 90% !important;
+  border-radius: 1vw;
+  height: 17vw;
+  box-shadow: -0.6vw 0 0 #343c82, 0.6vw 0 0 #343c82;
+  background-color: #f5f5f5;
+  margin-right: 2vw;
+  margin-left: 2vw !important;
+}
+
+.review_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 4vw;
+}
+
+.women_img {
+  width: 9vw;
+}
+
+.person_name {
+  color: #2c2c2c;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 1vw;
+}
+
+.client_review {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.3vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 30vw;
+}
+
+.slick-dots li button:before {
+  opacity: 0.25 !important;
+  top: 5vw !important;
+  left: 0 !important;
+  width: 1.2vw !important;
+  height: 1.2vw !important;
+
+  border-radius: 28px !important;
+  background: #343c82 !important;
+  padding-left: 5% !important;
+}
+
+.slick-dots li.slick-active button:before {
+  top: 5vw !important;
+  left: 0 !important;
+  width: 1.2vw !important;
+  height: 1.2vw !important;
+  opacity: 1 !important;
+  border-radius: 28px !important;
+  background: #343c82 !important;
+  padding-left: 5% !important;
+}

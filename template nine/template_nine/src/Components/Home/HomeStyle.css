@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.my_background {
+  background-image: url(./../../Assets/homepic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100% !important;
+  background-color: aqua !important;
+  height: 60vw;
+}
+
+@media only screen and (max-width: 1150px) {
+  .my_background {
+    height: 800px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .my_background {
+    height: 700px !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .my_background {
+    height: 650px !important;
+  }
+}
+
+
+@media only screen and (max-width: 380px) {
+    .my_background {
+      height: 160vw !important;
+    }
+  }
+  
+  @media only screen and (max-width: 340px) {
+    .my_background {
+      height: 180vw !important;
+    }
+  }
+  
